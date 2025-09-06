@@ -1,0 +1,12 @@
+writefile("Hacklord.mp3", game:HttpGet("https://github.com/ian49972/smth/raw/refs/heads/main/Hacklord.mp3"))
+ 
+-- Tạo sound instance
+local sound = Instance.new("Sound")
+sound.SoundId = getcustomasset("Hacklord.mp3")
+sound.Name = "HacklordTheme"
+sound.Volume = 5
+sound.Looped = false
+sound.Parent = workspace
+ 
+-- Phát nhạc
+sound:Play()
