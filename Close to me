@@ -3,7 +3,7 @@ writefile("?.mp3", game:HttpGet("https://github.com/03yome/HAck-Lord/blob/main/y
 -- Tạo sound instance
 local sound = Instance.new("Sound")
 sound.SoundId = getcustomasset("?.mp3")
-sound.Name = "HacklordTheme"
+sound.Name = "?"
 sound.Volume = 5
 sound.Looped = false
 sound.Parent = workspace
