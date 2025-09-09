@@ -1,12 +1,13 @@
-writefile("?.mp3", game:HttpGet("https://github.com/03yome/HAck-Lord/blob/main/y2mate--ANNIHILATION-John-Doe-vs-FRIEND-Elliot-CLOSE-TO-ME-Red.mp3"))
+-- Tải file mp3 từ GitHub (raw link, và tên file hợp lệ)
+writefile("MySong.mp3", game:HttpGet("https://github.com/03yome/HAck-Lord/raw/main/y2mate--ANNIHILATION-John-Doe-vs-FRIEND-Elliot-CLOSE-TO-ME-Red.mp3"))
 
 -- Tạo sound instance
 local sound = Instance.new("Sound")
-sound.SoundId = getcustomasset("?.mp3")
-sound.Name = "?"
+sound.SoundId = getcustomasset("MySong.mp3") -- tên file đúng
+sound.Name = "MyTheme"
 sound.Volume = 5
 sound.Looped = false
 sound.Parent = workspace
- 
+
 -- Phát nhạc
 sound:Play()
