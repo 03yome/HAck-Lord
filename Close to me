@@ -6,7 +6,7 @@ local sound = Instance.new("Sound")
 sound.SoundId = getcustomasset("MySong.mp3") -- tên file đúng
 sound.Name = "MyTheme"
 sound.Volume = 5
-sound.Looped = false
+sound.Looped = true
 sound.Parent = workspace
 
 -- Phát nhạc
