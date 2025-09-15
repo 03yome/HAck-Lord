@@ -5,7 +5,7 @@ local sound = Instance.new("Sound")
 sound.SoundId = getcustomasset("Hacklord.mp3")
 sound.Name = "HacklordTheme"
 sound.Volume = 5
-sound.Looped = false
+sound.Looped = true
 sound.Parent = workspace
  
 -- Phát nhạc
